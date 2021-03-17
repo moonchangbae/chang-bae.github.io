@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Gov't to allow employment of foreign nationals at logistics companies</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>The government will allow the employment of foreign nationals at logistics companies for tasks limited to sorting parcels and loading them onto trucks, as part of its response to the chronic labor shortage in the industry.
+
+        The Ministry of Justice made a prior announcement about a revision to the enforcement ordinance of the Immigration Control Act, Tuesday, on expanding the category of workplaces allowing foreign nationals with the H-2 working visit visa, which is issued to certain overseas Koreans aged 25 or older.
+        
+        
+        </p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p> Tuesday, on expanding the category of workplaces allowing foreign nationals with the H-2 working visit visa, which is issued to certain overseas Koreans aged 25 or older. Under the current measures, H-2 visa holders can be hired in 39 designated industry categories, such as manufacturing, livestock and fisheries in workplaces with less than 300 employees.</p>
+  </div>
+</div>
+
+</body>
+</html>
